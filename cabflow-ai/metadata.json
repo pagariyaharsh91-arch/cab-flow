@@ -1,0 +1,6 @@
+{
+  "name": "CabFlow AI — Smart Cab Booking & Fleet Management System",
+  "description": "Production-grade Cab Booking & Fleet Management SaaS with real-time operations, multilingual support (English, मराठी, हिन्दी), voice commands, revenue analytics, driver & vehicle tracking, and activity logging.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

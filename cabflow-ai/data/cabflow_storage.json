@@ -1,0 +1,479 @@
+{
+  "users": [
+    {
+      "id": "usr-001",
+      "name": "Prof. Rajesh Kulkarni",
+      "email": "admin@cabflow.ai",
+      "password_hash": "$2b$10$pDAdWg/nJ/EvlQexYSosMOawvEb9374FCuhQxd44U.P4F9jx1mYhm",
+      "role": "admin",
+      "avatar_url": "/src/assets/images/admin_avatar_1792657023605.jpg",
+      "created_at": "2026-10-20T08:00:00.000Z"
+    },
+    {
+      "id": "usr-002",
+      "name": "Ananya Deshmukh",
+      "email": "staff@cabflow.ai",
+      "password_hash": "$2b$10$pDAdWg/nJ/EvlQexYSosMOawvEb9374FCuhQxd44U.P4F9jx1mYhm",
+      "role": "staff",
+      "avatar_url": null,
+      "created_at": "2026-10-21T09:00:00.000Z"
+    },
+    {
+      "id": "usr-003",
+      "name": "Guest Evaluator",
+      "email": "viewer@cabflow.ai",
+      "password_hash": "$2b$10$pDAdWg/nJ/EvlQexYSosMOawvEb9374FCuhQxd44U.P4F9jx1mYhm",
+      "role": "viewer",
+      "avatar_url": null,
+      "created_at": "2026-10-22T08:00:00.000Z"
+    }
+  ],
+  "customers": [
+    {
+      "id": "CUST-101",
+      "name": "Priya Sharma",
+      "phone": "+91 98201 12345",
+      "email": "priya.sharma@example.com",
+      "address": "Koregaon Park, Pune, MH",
+      "created_at": "2026-10-18T10:00:00.000Z"
+    },
+    {
+      "id": "CUST-102",
+      "name": "Rahul Verma",
+      "phone": "+91 98902 23456",
+      "email": "rahul.verma@example.com",
+      "address": "Bandra West, Mumbai, MH",
+      "created_at": "2026-10-19T11:20:00.000Z"
+    },
+    {
+      "id": "CUST-103",
+      "name": "Amit Joshi",
+      "phone": "+91 97654 34567",
+      "email": "amit.joshi@example.com",
+      "address": "Kothrud, Pune, MH",
+      "created_at": "2026-10-20T14:30:00.000Z"
+    },
+    {
+      "id": "CUST-104",
+      "name": "Sneha Patil",
+      "phone": "+91 94220 45678",
+      "email": "sneha.patil@example.com",
+      "address": "Vashi, Navi Mumbai, MH",
+      "created_at": "2026-10-21T09:15:00.000Z"
+    },
+    {
+      "id": "CUST-105",
+      "name": "Vikramaditya Roy",
+      "phone": "+91 91580 56789",
+      "email": "vikram.roy@example.com",
+      "address": "Hinjawadi Phase 1, Pune, MH",
+      "created_at": "2026-10-21T12:00:00.000Z"
+    },
+    {
+      "id": "CUST-106",
+      "name": "Pooja Kulkarni",
+      "phone": "+91 93700 67890",
+      "email": "pooja.k@example.com",
+      "address": "Aundh, Pune, MH",
+      "created_at": "2026-10-21T15:45:00.000Z"
+    }
+  ],
+  "drivers": [
+    {
+      "id": "DRV-201",
+      "name": "Suresh Shinde",
+      "phone": "+91 98221 44556",
+      "email": "suresh.shinde@cabflow.ai",
+      "license_number": "MH-12-2018-0098431",
+      "license_expiry": "2028-06-15",
+      "status": "available",
+      "created_at": "2026-10-15T08:00:00.000Z"
+    },
+    {
+      "id": "DRV-202",
+      "name": "Ramesh Gaikwad",
+      "phone": "+91 94235 66778",
+      "email": "ramesh.gaikwad@cabflow.ai",
+      "license_number": "MH-14-2019-0056123",
+      "license_expiry": "2027-11-20",
+      "status": "on_duty",
+      "created_at": "2026-10-16T09:30:00.000Z"
+    },
+    {
+      "id": "DRV-203",
+      "name": "Sachin Pawar",
+      "phone": "+91 98901 88990",
+      "email": "sachin.pawar@cabflow.ai",
+      "license_number": "MH-01-2020-0012984",
+      "license_expiry": "2026-12-10",
+      "status": "available",
+      "created_at": "2026-10-17T10:15:00.000Z"
+    },
+    {
+      "id": "DRV-204",
+      "name": "Mahesh Jadhav",
+      "phone": "+91 97664 11223",
+      "email": "mahesh.jadhav@cabflow.ai",
+      "license_number": "MH-12-2017-0077889",
+      "license_expiry": "2029-03-30",
+      "status": "available",
+      "created_at": "2026-10-18T11:00:00.000Z"
+    },
+    {
+      "id": "DRV-205",
+      "name": "Sunil More",
+      "phone": "+91 91588 33445",
+      "email": "sunil.more@cabflow.ai",
+      "license_number": "MH-14-2016-0044556",
+      "license_expiry": "2027-08-14",
+      "status": "off_duty",
+      "created_at": "2026-10-19T13:40:00.000Z"
+    }
+  ],
+  "vehicles": [
+    {
+      "id": "VEH-301",
+      "registration_number": "MH-12-RN-4589",
+      "type": "Sedan",
+      "make_model": "Hyundai Verna 1.5 Turbo",
+      "seating_capacity": 4,
+      "assigned_driver_id": "DRV-201",
+      "status": "available",
+      "maintenance_notes": "Scheduled service completed. High performance.",
+      "created_at": "2026-10-15T08:00:00.000Z"
+    },
+    {
+      "id": "VEH-302",
+      "registration_number": "MH-14-EQ-8921",
+      "type": "SUV",
+      "make_model": "Toyota Innova Crysta 2.4 VX",
+      "seating_capacity": 7,
+      "assigned_driver_id": "DRV-202",
+      "status": "available",
+      "maintenance_notes": "AC overhaul done. Passenger cabin sanitized.",
+      "created_at": "2026-10-16T09:00:00.000Z"
+    },
+    {
+      "id": "VEH-303",
+      "registration_number": "MH-12-TX-1024",
+      "type": "Hatchback",
+      "make_model": "Maruti Suzuki Swift ZXi",
+      "seating_capacity": 4,
+      "assigned_driver_id": "DRV-203",
+      "status": "available",
+      "maintenance_notes": "New brake pads installed. Fuel efficiency checked.",
+      "created_at": "2026-10-17T11:20:00.000Z"
+    },
+    {
+      "id": "VEH-304",
+      "registration_number": "MH-01-EV-3301",
+      "type": "Premium",
+      "make_model": "Tata Nexon EV Max Prime",
+      "seating_capacity": 5,
+      "assigned_driver_id": "DRV-204",
+      "status": "available",
+      "maintenance_notes": "Fast charging verified. Battery health 98%.",
+      "created_at": "2026-10-18T14:10:00.000Z"
+    },
+    {
+      "id": "VEH-305",
+      "registration_number": "MH-12-BZ-7744",
+      "type": "SUV",
+      "make_model": "Mahindra XUV700 AX7",
+      "seating_capacity": 7,
+      "assigned_driver_id": null,
+      "status": "on_trip",
+      "maintenance_notes": "Quarterly wheel alignment and suspension inspection.",
+      "created_at": "2026-10-19T16:00:00.000Z"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "CB-8930",
+      "customer_id": "CUST-104",
+      "customer_name": "Sneha Patil",
+      "customer_phone": "+91 94220 45678",
+      "pickup_location": "Chhatrapati Shivaji Terminal (CSMT)",
+      "destination": "Bandra Kurla Complex (BKC)",
+      "booking_time": "2026-10-22T13:49:18.985Z",
+      "vehicle_id": "VEH-303",
+      "driver_id": "DRV-204",
+      "estimated_fare": 692,
+      "ride_status": "Confirmed",
+      "payment_status": "Paid",
+      "created_at": "2026-10-22T13:49:18.988Z",
+      "updated_at": "2026-10-22T13:49:18.988Z"
+    },
+    {
+      "id": "CB-8921",
+      "customer_id": "CUST-101",
+      "customer_name": "Priya Sharma",
+      "customer_phone": "+91 98201 12345",
+      "pickup_location": "Pune Airport (PNQ), Lohegaon",
+      "destination": "JW Marriott, Senapati Bapat Rd",
+      "booking_time": "2026-10-22T09:30:00.000Z",
+      "vehicle_id": "VEH-301",
+      "driver_id": "DRV-201",
+      "estimated_fare": 850,
+      "ride_status": "Confirmed",
+      "payment_status": "Paid",
+      "created_at": "2026-10-22T09:00:00.000Z",
+      "updated_at": "2026-10-22T09:35:00.000Z"
+    },
+    {
+      "id": "CB-8922",
+      "customer_id": "CUST-102",
+      "customer_name": "Rahul Verma",
+      "customer_phone": "+91 98902 23456",
+      "pickup_location": "Chhatrapati Shivaji Terminal (CSMT)",
+      "destination": "Bandra Kurla Complex (BKC)",
+      "booking_time": "2026-10-22T10:15:00.000Z",
+      "vehicle_id": "VEH-302",
+      "driver_id": "DRV-202",
+      "estimated_fare": 620,
+      "ride_status": "In Progress",
+      "payment_status": "Pending",
+      "created_at": "2026-10-22T09:45:00.000Z",
+      "updated_at": "2026-10-22T10:15:00.000Z"
+    },
+    {
+      "id": "CB-8923",
+      "customer_id": "CUST-103",
+      "customer_name": "Amit Joshi",
+      "customer_phone": "+91 97654 34567",
+      "pickup_location": "Kothrud Stand, Pune",
+      "destination": "Magarpatta Cybercity, Hadapsar",
+      "booking_time": "2026-10-22T11:00:00.000Z",
+      "vehicle_id": "VEH-304",
+      "driver_id": "DRV-204",
+      "estimated_fare": 540,
+      "ride_status": "Pending",
+      "payment_status": "Pending",
+      "created_at": "2026-10-22T10:00:00.000Z",
+      "updated_at": "2026-10-22T10:00:00.000Z"
+    },
+    {
+      "id": "CB-8920",
+      "customer_id": "CUST-104",
+      "customer_name": "Sneha Patil",
+      "customer_phone": "+91 94220 45678",
+      "pickup_location": "Vashi Plaza, Navi Mumbai",
+      "destination": "Domestic Airport T1, Mumbai",
+      "booking_time": "2026-10-21T16:45:00.000Z",
+      "vehicle_id": "VEH-303",
+      "driver_id": "DRV-203",
+      "estimated_fare": 950,
+      "ride_status": "Completed",
+      "payment_status": "Paid",
+      "created_at": "2026-10-21T15:30:00.000Z",
+      "updated_at": "2026-10-21T17:30:00.000Z"
+    },
+    {
+      "id": "CB-8919",
+      "customer_id": "CUST-105",
+      "customer_name": "Vikramaditya Roy",
+      "customer_phone": "+91 91580 56789",
+      "pickup_location": "Hinjawadi Phase 3 Tech Park",
+      "destination": "Shivajinagar Railway Station",
+      "booking_time": "2026-10-21T18:20:00.000Z",
+      "vehicle_id": "VEH-301",
+      "driver_id": "DRV-201",
+      "estimated_fare": 780,
+      "ride_status": "Completed",
+      "payment_status": "Paid",
+      "created_at": "2026-10-21T17:10:00.000Z",
+      "updated_at": "2026-10-21T19:15:00.000Z"
+    },
+    {
+      "id": "CB-8918",
+      "customer_id": "CUST-106",
+      "customer_name": "Pooja Kulkarni",
+      "customer_phone": "+91 93700 67890",
+      "pickup_location": "Aundh Westend Mall",
+      "destination": "Symbiosis College, Viman Nagar",
+      "booking_time": "2026-10-20T14:10:00.000Z",
+      "vehicle_id": "VEH-302",
+      "driver_id": "DRV-202",
+      "estimated_fare": 450,
+      "ride_status": "Cancelled",
+      "payment_status": "Refunded",
+      "created_at": "2026-10-20T13:00:00.000Z",
+      "updated_at": "2026-10-20T14:05:00.000Z"
+    }
+  ],
+  "payments": [
+    {
+      "id": "PAY-4015",
+      "booking_id": "CB-8930",
+      "customer_name": "Sneha Patil",
+      "amount": 692,
+      "method": "UPI",
+      "status": "Success",
+      "transaction_ref": "DEMO-REF-84835608",
+      "is_demo": true,
+      "payment_date": "2026-10-22T13:49:18.988Z"
+    },
+    {
+      "id": "PAY-4011",
+      "booking_id": "CB-8921",
+      "customer_name": "Priya Sharma",
+      "amount": 850,
+      "method": "UPI",
+      "status": "Success",
+      "transaction_ref": "UPI-REF-99881234",
+      "is_demo": true,
+      "payment_date": "2026-10-22T09:35:00.000Z"
+    },
+    {
+      "id": "PAY-4010",
+      "booking_id": "CB-8920",
+      "customer_name": "Sneha Patil",
+      "amount": 950,
+      "method": "Card",
+      "status": "Success",
+      "transaction_ref": "TXN-CARD-4412098",
+      "is_demo": true,
+      "payment_date": "2026-10-21T17:00:00.000Z"
+    },
+    {
+      "id": "PAY-4009",
+      "booking_id": "CB-8919",
+      "customer_name": "Vikramaditya Roy",
+      "amount": 780,
+      "method": "UPI",
+      "status": "Success",
+      "transaction_ref": "UPI-REF-77123991",
+      "is_demo": true,
+      "payment_date": "2026-10-21T18:40:00.000Z"
+    },
+    {
+      "id": "PAY-4008",
+      "booking_id": "CB-8918",
+      "customer_name": "Pooja Kulkarni",
+      "amount": 450,
+      "method": "NetBanking",
+      "status": "Success",
+      "transaction_ref": "REF-NETB-129038",
+      "is_demo": true,
+      "payment_date": "2026-10-20T14:15:00.000Z"
+    }
+  ],
+  "activity_logs": [
+    {
+      "id": "log-1792677368654-244",
+      "user_id": "usr-001",
+      "action_type": "VEHICLE_UPDATE",
+      "entity_type": "VEHICLE",
+      "entity_id": "VEH-305",
+      "description": "Vehicle VEH-305 updated: Status = on_trip",
+      "metadata": null,
+      "created_at": "2026-10-22T13:56:08.654Z"
+    },
+    {
+      "id": "log-1792677015490-837",
+      "user_id": "usr-001",
+      "action_type": "VEHICLE_UPDATE",
+      "entity_type": "VEHICLE",
+      "entity_id": "VEH-302",
+      "description": "Vehicle VEH-302 updated: Status = available",
+      "metadata": null,
+      "created_at": "2026-10-22T13:50:15.490Z"
+    },
+    {
+      "id": "log-1792676958991-705",
+      "user_id": "usr-001",
+      "action_type": "BOOKING_CREATE",
+      "entity_type": "BOOKING",
+      "entity_id": "CB-8930",
+      "description": "Booking CB-8930 created for Sneha Patil (Chhatrapati Shivaji Terminal (CSMT) → Bandra Kurla Complex (BKC)). Fare: ₹692",
+      "metadata": {
+        "fare": 692,
+        "vehicle": "VEH-303"
+      },
+      "created_at": "2026-10-22T13:49:18.991Z"
+    },
+    {
+      "id": "log-1792676958989-121",
+      "user_id": null,
+      "action_type": "PAYMENT_RECORD",
+      "entity_type": "PAYMENT",
+      "entity_id": "PAY-4015",
+      "description": "Demo payment of ₹692 recorded for Sneha Patil via UPI (Success).",
+      "metadata": {
+        "booking_id": "CB-8930",
+        "amount": 692,
+        "method": "UPI"
+      },
+      "created_at": "2026-10-22T13:49:18.989Z"
+    },
+    {
+      "id": "log-1792676916228-723",
+      "user_id": "usr-001",
+      "action_type": "DEMO_SEED",
+      "entity_type": "SYSTEM",
+      "entity_id": "SYS-SEED",
+      "description": "Demonstration dataset reloaded with sample bookings, drivers, and vehicles.",
+      "metadata": null,
+      "created_at": "2026-10-22T13:48:36.228Z"
+    },
+    {
+      "id": "log-101",
+      "user_id": "usr-001",
+      "action_type": "SYSTEM_INIT",
+      "entity_type": "SYSTEM",
+      "entity_id": "SYS-INIT",
+      "description": "CabFlow AI initialized with persistent database storage.",
+      "metadata": {
+        "env": "college_demo_ready"
+      },
+      "created_at": "2026-10-22T08:00:00.000Z"
+    },
+    {
+      "id": "log-102",
+      "user_id": "usr-001",
+      "action_type": "BOOKING_CREATE",
+      "entity_type": "BOOKING",
+      "entity_id": "CB-8921",
+      "description": "New booking created for Priya Sharma: Pune Airport to JW Marriott.",
+      "metadata": {
+        "fare": 850,
+        "vehicle": "VEH-301"
+      },
+      "created_at": "2026-10-22T09:00:12.000Z"
+    },
+    {
+      "id": "log-103",
+      "user_id": "usr-001",
+      "action_type": "PAYMENT_RECORD",
+      "entity_type": "PAYMENT",
+      "entity_id": "PAY-4011",
+      "description": "Demo payment of ₹850.00 confirmed via UPI for booking CB-8921.",
+      "metadata": {
+        "method": "UPI",
+        "mode": "demo"
+      },
+      "created_at": "2026-10-22T09:35:04.000Z"
+    },
+    {
+      "id": "log-104",
+      "user_id": "usr-002",
+      "action_type": "BOOKING_UPDATE",
+      "entity_type": "BOOKING",
+      "entity_id": "CB-8922",
+      "description": "Ride status updated to In Progress for Rahul Verma.",
+      "metadata": {
+        "driver": "DRV-202"
+      },
+      "created_at": "2026-10-22T10:15:20.000Z"
+    }
+  ],
+  "settings": {
+    "usr-001": {
+      "user_id": "usr-001",
+      "language": "en",
+      "theme": "light",
+      "notifications_enabled": true,
+      "currency": "INR"
+    }
+  }
+}
